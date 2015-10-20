@@ -1,4 +1,4 @@
 # keyboard-maestro
 My Keyboard Maestro macros.
 
-![My Macros](my-macros.png)t
+![My Macros](my-macros.png)
