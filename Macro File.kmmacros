@@ -19,6 +19,434 @@
 						<true/>
 						<key>IsDisclosed</key>
 						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>459558639.03058499</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>467422516.63799</real>
+				<key>Name</key>
+				<string>Down 10 Lines</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>375109A0-DD2C-485B-838C-134DC940B80A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Editing</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.metaclassy.byword</string>
+					<key>Name</key>
+					<string>Byword</string>
+					<key>NewFile</key>
+					<string>/Applications/Byword.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>podium.Framer-Studio</string>
+					<key>Name</key>
+					<string>Framer Studio</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer Studio.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.sublimetext.3</string>
+					<key>Name</key>
+					<string>Sublime Text</string>
+					<key>NewFile</key>
+					<string>/Applications/Sublime Text.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>jp.informationarchitects.WriterForMacOSX</string>
+					<key>Name</key>
+					<string>iA Writer</string>
+					<key>NewFile</key>
+					<string>/Applications/iA Writer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>9DA10C8B-B991-4C9F-B9E6-A28281F6EAA2</string>
+		<key>UID</key>
+		<string>043B40E7-BC56-422B-8660-A6BEE40D75A4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>KeyCode</key>
+						<integer>126</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>459558639.03058499</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>467422519.84037697</real>
+				<key>Name</key>
+				<string>Up 10 Lines</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>957956C3-1C2D-47C7-A420-445A12FAD033</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Text Editing</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.metaclassy.byword</string>
+					<key>Name</key>
+					<string>Byword</string>
+					<key>NewFile</key>
+					<string>/Applications/Byword.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>podium.Framer-Studio</string>
+					<key>Name</key>
+					<string>Framer Studio</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer Studio.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.sublimetext.3</string>
+					<key>Name</key>
+					<string>Sublime Text</string>
+					<key>NewFile</key>
+					<string>/Applications/Sublime Text.app</string>
+				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>jp.informationarchitects.WriterForMacOSX</string>
+					<key>Name</key>
+					<string>iA Writer</string>
+					<key>NewFile</key>
+					<string>/Applications/iA Writer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>9DA10C8B-B991-4C9F-B9E6-A28281F6EAA2</string>
+		<key>UID</key>
+		<string>043B40E7-BC56-422B-8660-A6BEE40D75A4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
 						<key>MacroActionType</key>
 						<string>SelectMenuItem</string>
 						<key>Menu</key>
@@ -128,11 +556,11 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>459558639.03058499</real>
+				<real>0.0</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>456846863.70880002</real>
+				<real>466190583.28267998</real>
 				<key>Name</key>
 				<string>Align Horizontally</string>
 				<key>Triggers</key>
@@ -141,7 +569,7 @@
 						<key>FireType</key>
 						<string>Pressed</string>
 						<key>KeyCode</key>
-						<integer>42</integer>
+						<integer>33</integer>
 						<key>MacroTriggerType</key>
 						<string>HotKey</string>
 						<key>Modifiers</key>
@@ -149,7 +577,7 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>F7DD826B-127C-47B8-94D4-050BEA1C975F</string>
+				<string>AB4AA4B2-829F-45E5-9201-B10D59110C04</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -214,11 +642,11 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>459558639.03058499</real>
+				<real>0.0</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>456846909.66288</real>
+				<real>466190585.94763398</real>
 				<key>Name</key>
 				<string>Align Vertically</string>
 				<key>Triggers</key>
@@ -227,15 +655,15 @@
 						<key>FireType</key>
 						<string>Pressed</string>
 						<key>KeyCode</key>
-						<integer>42</integer>
+						<integer>30</integer>
 						<key>MacroTriggerType</key>
 						<string>HotKey</string>
 						<key>Modifiers</key>
-						<integer>768</integer>
+						<integer>256</integer>
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>55ED9A93-21F5-430E-8383-93BF2AC4F7AF</string>
+				<string>5E3C0FE1-23C6-49EE-9BAC-F9E8C7D77849</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -401,222 +829,13 @@
 					<key>NewFile</key>
 					<string>/Applications/Sublime Text.app</string>
 				</dict>
-			</array>
-		</dict>
-		<key>ToggleMacroUID</key>
-		<string>9DA10C8B-B991-4C9F-B9E6-A28281F6EAA2</string>
-		<key>UID</key>
-		<string>043B40E7-BC56-422B-8660-A6BEE40D75A4</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>459558639.03058499</real>
-		<key>IsActive</key>
-		<true/>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>459558639.03058499</real>
-				<key>IsActive</key>
-				<true/>
-				<key>ModificationDate</key>
-				<real>438987757.342188</real>
-				<key>Name</key>
-				<string>Up 10 Lines</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>126</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>2048</integer>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>957956C3-1C2D-47C7-A420-445A12FAD033</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Text Editing</string>
-		<key>Targeting</key>
-		<dict>
-			<key>Targeting</key>
-			<string>Included</string>
-			<key>TargetingApps</key>
-			<array>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>com.metaclassy.byword</string>
+					<string>jp.informationarchitects.WriterForMacOSX</string>
 					<key>Name</key>
-					<string>Byword</string>
+					<string>iA Writer</string>
 					<key>NewFile</key>
-					<string>/Applications/Byword.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>podium.Framer-Studio</string>
-					<key>Name</key>
-					<string>Framer Studio</string>
-					<key>NewFile</key>
-					<string>/Applications/Framer Studio.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.sublimetext.3</string>
-					<key>Name</key>
-					<string>Sublime Text</string>
-					<key>NewFile</key>
-					<string>/Applications/Sublime Text.app</string>
+					<string>/Applications/iA Writer.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -765,222 +984,13 @@
 					<key>NewFile</key>
 					<string>/Applications/Sublime Text.app</string>
 				</dict>
-			</array>
-		</dict>
-		<key>ToggleMacroUID</key>
-		<string>9DA10C8B-B991-4C9F-B9E6-A28281F6EAA2</string>
-		<key>UID</key>
-		<string>043B40E7-BC56-422B-8660-A6BEE40D75A4</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>459558639.03058499</real>
-		<key>IsActive</key>
-		<true/>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>459558639.03058499</real>
-				<key>IsActive</key>
-				<true/>
-				<key>ModificationDate</key>
-				<real>438987752.752141</real>
-				<key>Name</key>
-				<string>Down 10 Lines</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>125</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>2048</integer>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>375109A0-DD2C-485B-838C-134DC940B80A</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Text Editing</string>
-		<key>Targeting</key>
-		<dict>
-			<key>Targeting</key>
-			<string>Included</string>
-			<key>TargetingApps</key>
-			<array>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>com.metaclassy.byword</string>
+					<string>jp.informationarchitects.WriterForMacOSX</string>
 					<key>Name</key>
-					<string>Byword</string>
+					<string>iA Writer</string>
 					<key>NewFile</key>
-					<string>/Applications/Byword.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>podium.Framer-Studio</string>
-					<key>Name</key>
-					<string>Framer Studio</string>
-					<key>NewFile</key>
-					<string>/Applications/Framer Studio.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.sublimetext.3</string>
-					<key>Name</key>
-					<string>Sublime Text</string>
-					<key>NewFile</key>
-					<string>/Applications/Sublime Text.app</string>
+					<string>/Applications/iA Writer.app</string>
 				</dict>
 			</array>
 		</dict>
@@ -3027,6 +3037,14 @@
 					<key>NewFile</key>
 					<string>/Applications/Sublime Text.app</string>
 				</dict>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>jp.informationarchitects.WriterForMacOSX</string>
+					<key>Name</key>
+					<string>iA Writer</string>
+					<key>NewFile</key>
+					<string>/Applications/iA Writer.app</string>
+				</dict>
 			</array>
 		</dict>
 		<key>ToggleMacroUID</key>
@@ -3072,7 +3090,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>459558639.03058499</real>
+				<real>0.0</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -3093,7 +3111,7 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>B1C3D089-AAEA-411E-98E1-F571FEE18571</string>
+				<string>9FCD2FD3-DEFB-4BC7-9545-D2525D731A11</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -3161,7 +3179,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>467042892.85019398</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -3380,7 +3398,7 @@
 		<key>Activate</key>
 		<string>Normal</string>
 		<key>CreationDate</key>
-		<real>0.0</real>
+		<real>467042892.85019398</real>
 		<key>IsActive</key>
 		<true/>
 		<key>Macros</key>
@@ -3453,7 +3471,7 @@
 		<key>Activate</key>
 		<string>Normal</string>
 		<key>CreationDate</key>
-		<real>0.0</real>
+		<real>467042892.85019398</real>
 		<key>IsActive</key>
 		<true/>
 		<key>Macros</key>
@@ -3526,7 +3544,7 @@
 		<key>Activate</key>
 		<string>Normal</string>
 		<key>CreationDate</key>
-		<real>0.0</real>
+		<real>467042892.85019398</real>
 		<key>IsActive</key>
 		<true/>
 		<key>Macros</key>
