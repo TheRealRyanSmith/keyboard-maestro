@@ -191,7 +191,7 @@
 					<key>Name</key>
 					<string>Framer Studio</string>
 					<key>NewFile</key>
-					<string>/Applications/Framer Studio.app</string>
+					<string>~/Applications/Framer Studio -bak.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -405,7 +405,7 @@
 					<key>Name</key>
 					<string>Framer Studio</string>
 					<key>NewFile</key>
-					<string>/Applications/Framer Studio.app</string>
+					<string>~/Applications/Framer Studio -bak.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -556,7 +556,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>467483885.348849</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -642,7 +642,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>467483885.348849</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -664,6 +664,92 @@
 				</array>
 				<key>UID</key>
 				<string>5E3C0FE1-23C6-49EE-9BAC-F9E8C7D77849</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sketch</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.bohemiancoding.sketch3</string>
+					<key>Name</key>
+					<string>Sketch</string>
+					<key>NewFile</key>
+					<string>/Applications/Sketch.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>B07EBC14-084A-49A5-833B-03C5578791A2</string>
+		<key>UID</key>
+		<string>E6CF6AE5-14B4-4BAE-B8E5-AFD200631187</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Arrange</string>
+							<string>Align Objects</string>
+							<string>Horizontally in Artboard</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.bohemiancoding.sketch3</string>
+							<key>Name</key>
+							<string>Sketch</string>
+							<key>NewFile</key>
+							<string>/Applications/Sketch.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>467819097.74172002</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>467819136.773871</real>
+				<key>Name</key>
+				<string>Align Center</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>42</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0CE303F9-EC58-41B9-9DF3-8541FFF55E28</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -819,7 +905,7 @@
 					<key>Name</key>
 					<string>Framer Studio</string>
 					<key>NewFile</key>
-					<string>/Applications/Framer Studio.app</string>
+					<string>~/Applications/Framer Studio -bak.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -974,7 +1060,7 @@
 					<key>Name</key>
 					<string>Framer Studio</string>
 					<key>NewFile</key>
-					<string>/Applications/Framer Studio.app</string>
+					<string>~/Applications/Framer Studio -bak.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -1558,7 +1644,7 @@
 		<key>Activate</key>
 		<string>Normal</string>
 		<key>CreationDate</key>
-		<real>459558639.03058499</real>
+		<real>470209605.97785598</real>
 		<key>IsActive</key>
 		<true/>
 		<key>Macros</key>
@@ -1567,56 +1653,200 @@
 				<key>Actions</key>
 				<array>
 					<dict>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Preview</string>
+							<key>Name</key>
+							<string>Preview</string>
+							<key>NewFile</key>
+							<string>/Applications/Preview.app</string>
+						</dict>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
 						<true/>
 						<key>MacroActionType</key>
-						<string>OpenFinderSelection</string>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Go</string>
+							<string>Up</string>
+						</array>
 						<key>TargetApplication</key>
 						<dict>
 							<key>BundleIdentifier</key>
-							<string>podium.Framer-Studio</string>
+							<string>com.apple.Preview</string>
 							<key>Name</key>
-							<string>Framer Studio</string>
+							<string>Preview</string>
 							<key>NewFile</key>
-							<string>/Applications/Framer Studio.app</string>
+							<string>/Applications/Preview.app</string>
 						</dict>
 						<key>TargetingType</key>
 						<string>Specific</string>
 					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SwitchToLastApplication</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>459558639.03058499</real>
+				<real>470209605.97785598</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>445458462.69139302</real>
+				<real>470207539.41989702</real>
 				<key>Name</key>
-				<string>Open Folder in Framer Studio</string>
+				<string>Page Up</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
 						<key>FireType</key>
 						<string>Pressed</string>
 						<key>KeyCode</key>
-						<integer>3</integer>
+						<integer>122</integer>
 						<key>MacroTriggerType</key>
 						<string>HotKey</string>
 						<key>Modifiers</key>
-						<integer>6400</integer>
+						<integer>0</integer>
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>FCD937C7-3B63-4AFF-9231-550B2A9832AD</string>
+				<string>BE1D99DC-BF17-4081-9F15-279E2B79BCBA</string>
 			</dict>
 		</array>
 		<key>Name</key>
-		<string>Framer</string>
+		<string>Preview</string>
 		<key>ToggleMacroUID</key>
-		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
+		<string>14642ED1-A8FE-450F-8B8F-F391D8D2FD11</string>
 		<key>UID</key>
-		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
+		<string>2F4C4A77-2E01-49E3-8A3F-FCEFC02972B4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>470209605.97785598</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Preview</string>
+							<key>Name</key>
+							<string>Preview</string>
+							<key>NewFile</key>
+							<string>/Applications/Preview.app</string>
+						</dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Go</string>
+							<string>Down</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Preview</string>
+							<key>Name</key>
+							<string>Preview</string>
+							<key>NewFile</key>
+							<string>/Applications/Preview.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SwitchToLastApplication</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>470207487.11935502</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>470207540.916206</real>
+				<key>Name</key>
+				<string>Page Down</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>120</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7B29D3D0-1798-45F7-BA11-45DFF81912E0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Preview</string>
+		<key>ToggleMacroUID</key>
+		<string>14642ED1-A8FE-450F-8B8F-F391D8D2FD11</string>
+		<key>UID</key>
+		<string>2F4C4A77-2E01-49E3-8A3F-FCEFC02972B4</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -1979,6 +2209,70 @@
 		<string>D0101C86-A07C-4D54-9819-254C126E56EA</string>
 		<key>UID</key>
 		<string>ADCF3737-11A5-40F3-A468-C00B9319D82A</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>462643373.21506202</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>OpenFinderSelection</string>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.motif.framer</string>
+							<key>Name</key>
+							<string>Framer</string>
+							<key>NewFile</key>
+							<string>/Applications/Framer.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>459558639.03058499</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>482200465.36063403</real>
+				<key>Name</key>
+				<string>Open Folder in Framer Studio</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>96</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>FCD937C7-3B63-4AFF-9231-550B2A9832AD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Launcher</string>
+		<key>ToggleMacroUID</key>
+		<string>B877EA15-667B-4A82-8B3C-A87B75D95F22</string>
+		<key>UID</key>
+		<string>23EF06C6-0C01-4D42-9F01-05FFC498CA2A</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -2403,49 +2697,50 @@
 						<string>SelectMenuItem</string>
 						<key>Menu</key>
 						<array>
-							<string>Illustrator CC</string>
-							<string>Hide Illustrator</string>
+							<string>View</string>
+							<string>Canvas</string>
+							<string>Grid Settings...</string>
 						</array>
 						<key>TargetApplication</key>
 						<dict>
 							<key>BundleIdentifier</key>
-							<string>com.adobe.illustrator</string>
+							<string>com.bohemiancoding.sketch3</string>
 							<key>Name</key>
-							<string>Adobe Illustrator CC 2015</string>
+							<string>Sketch</string>
 							<key>NewFile</key>
-							<string>/Applications/Adobe Illustrator CC 2015/Adobe Illustrator.app</string>
+							<string>/Applications/Sketch.app</string>
 						</dict>
 						<key>TargetingType</key>
 						<string>Specific</string>
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>459558639.03058499</real>
+				<real>467483891.81542802</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>456506274.61325902</real>
+				<real>467819176.31559902</real>
 				<key>Name</key>
-				<string>Hide Illustrator CC2015</string>
+				<string>Edit Grid Settings</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
 						<key>FireType</key>
 						<string>Pressed</string>
 						<key>KeyCode</key>
-						<integer>4</integer>
+						<integer>5</integer>
 						<key>MacroTriggerType</key>
 						<string>HotKey</string>
 						<key>Modifiers</key>
-						<integer>256</integer>
+						<integer>2304</integer>
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>11654750-CFFC-4A6C-A25C-AD0D1D3E895C</string>
+				<string>1DEFB3AD-9D63-47A7-8F0C-875018644B3C</string>
 			</dict>
 		</array>
 		<key>Name</key>
-		<string>Illustrator</string>
+		<string>Sketch</string>
 		<key>Targeting</key>
 		<dict>
 			<key>Targeting</key>
@@ -2454,26 +2749,18 @@
 			<array>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>com.adobe.illustrator</string>
+					<string>com.bohemiancoding.sketch3</string>
 					<key>Name</key>
-					<string>Adobe Illustrator CC 2014</string>
+					<string>Sketch</string>
 					<key>NewFile</key>
-					<string>/Applications/Adobe Illustrator CC 2014/Adobe Illustrator.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.adobe.illustrator</string>
-					<key>Name</key>
-					<string>Adobe Illustrator CC 2015</string>
-					<key>NewFile</key>
-					<string>/Applications/Adobe Illustrator CC 2015/Adobe Illustrator.app</string>
+					<string>/Applications/Sketch.app</string>
 				</dict>
 			</array>
 		</dict>
 		<key>ToggleMacroUID</key>
-		<string>9CF50094-C5CE-4077-A389-B44660C68421</string>
+		<string>B07EBC14-084A-49A5-833B-03C5578791A2</string>
 		<key>UID</key>
-		<string>72C834D2-429F-4B53-BCF9-3534BB41761E</string>
+		<string>E6CF6AE5-14B4-4BAE-B8E5-AFD200631187</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -2899,6 +3186,65 @@
 		<key>Activate</key>
 		<string>Normal</string>
 		<key>CreationDate</key>
+		<real>462643373.21506202</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict/>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDefaultApplication</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>Open1File</string>
+						<key>Path</key>
+						<string>~/Dropbox/resources</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>462643373.21506202</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>481127167.22599101</real>
+				<key>Name</key>
+				<string>Open Resources</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>40</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>984650B0-6759-4C9B-B040-474D95E0E7AD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Launcher</string>
+		<key>ToggleMacroUID</key>
+		<string>B877EA15-667B-4A82-8B3C-A87B75D95F22</string>
+		<key>UID</key>
+		<string>23EF06C6-0C01-4D42-9F01-05FFC498CA2A</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
 		<real>459558639.03058499</real>
 		<key>IsActive</key>
 		<true/>
@@ -3027,7 +3373,7 @@
 					<key>Name</key>
 					<string>Framer Studio</string>
 					<key>NewFile</key>
-					<string>/Applications/Framer Studio.app</string>
+					<string>~/Applications/Framer Studio -bak.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
@@ -3073,6 +3419,92 @@
 						<string>SelectMenuItem</string>
 						<key>Menu</key>
 						<array>
+							<string>View</string>
+							<string>Canvas</string>
+							<string>Layout Settings...</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.bohemiancoding.sketch3</string>
+							<key>Name</key>
+							<string>Sketch</string>
+							<key>NewFile</key>
+							<string>/Applications/Sketch.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>467483891.81542802</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>467483909.44859999</real>
+				<key>Name</key>
+				<string>Edit Layout Settings</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>37</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>77DA8278-9521-4D3D-9FD7-333D5F7EC2F8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sketch</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.bohemiancoding.sketch3</string>
+					<key>Name</key>
+					<string>Sketch</string>
+					<key>NewFile</key>
+					<string>/Applications/Sketch.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>B07EBC14-084A-49A5-833B-03C5578791A2</string>
+		<key>UID</key>
+		<string>E6CF6AE5-14B4-4BAE-B8E5-AFD200631187</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
 							<string>Layer</string>
 							<string>Use as Mask</string>
 						</array>
@@ -3090,7 +3522,7 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>0.0</real>
+				<real>467483885.348849</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
@@ -3150,61 +3582,53 @@
 				<key>Actions</key>
 				<array>
 					<dict>
-						<key>Action</key>
-						<string>ByTyping</string>
 						<key>IsActive</key>
 						<true/>
 						<key>IsDisclosed</key>
 						<true/>
 						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>Paste</key>
-						<false/>
-						<key>Text</key>
-						<string>100%</string>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>KeyCode</key>
-						<integer>48</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Edit</string>
+							<string>Set Style as Default</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.bohemiancoding.sketch3</string>
+							<key>Name</key>
+							<string>Sketch</string>
+							<key>NewFile</key>
+							<string>/Applications/Sketch.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>467042892.85019398</real>
+				<real>467823617.82968497</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>467042572.76203901</real>
+				<real>467819271.82011998</real>
 				<key>Name</key>
-				<string>100%</string>
+				<string>Set Style as Default</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
-						<key>Case</key>
-						<string>Exact</string>
-						<key>DiacriticalsMatter</key>
-						<true/>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>1</integer>
 						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>OnlyAfterWordBreak</key>
-						<false/>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>000</string>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>E0DA9242-7F94-4F7B-8806-BBD984641DAC</string>
+				<string>F2415634-EA96-4273-9E4E-5E7433F8862E</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -3637,11 +4061,8 @@
 						<key>Paste</key>
 						<true/>
 						<key>Text</key>
-						<string>animation = new Animation({
-	layer: layerA,
-	properties: {x:100},
-	time: 0.4
-})</string>
+						<string>Framer.Defaults.Animation =
+	curve: "spring(400, 40, 0)"</string>
 					</dict>
 					<dict>
 						<key>IsActive</key>
@@ -3659,9 +4080,9 @@
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>459825206.23306799</real>
+				<real>483890977.53680599</real>
 				<key>Name</key>
-				<string>Animation</string>
+				<string>Animation Default</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -3680,11 +4101,117 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>828A27DD-D945-4E8C-85AF-6914959E2138</string>
+				<string>C2BCF954-755B-450B-80BA-D19330BA5B65</string>
 			</dict>
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
+		<key>UID</key>
+		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Paste</key>
+						<true/>
+						<key>Text</key>
+						<string>%|%.states.animationOptions =
+    curve: "spring(400, 40, 0)"</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>468730920.31750298</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>483890982.53193599</real>
+				<key>Name</key>
+				<string>Animation States</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Exact</string>
+						<key>DiacriticalsMatter</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<false/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>f  </string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7FFEA2C6-0079-4A27-BF99-FA7F493796D0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -3759,6 +4286,112 @@
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
+		<key>UID</key>
+		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Paste</key>
+						<true/>
+						<key>Text</key>
+						<string>Framer.Device.background.style.background = 
+	"linear-gradient(0deg, #eff8fc 24%, #85d5f5 100%)"</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>468002810.77293098</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>468002817.60282302</real>
+				<key>Name</key>
+				<string>Background Layer Gradient</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Exact</string>
+						<key>DiacriticalsMatter</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<false/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>f  </string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9927EC6D-B144-4F01-AA67-8D46040E3B1D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -3832,6 +4465,22 @@
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -3861,10 +4510,7 @@
 						<key>Paste</key>
 						<true/>
 						<key>Text</key>
-						<string>Framer.Defaults.Animation = {
-	curve: "ease-in"
-	time: 0.3
-}</string>
+						<string>Framer.Loop.delta = 1 / 1000</string>
 					</dict>
 					<dict>
 						<key>IsActive</key>
@@ -3878,13 +4524,13 @@
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>459558639.03058499</real>
+				<real>483891122.95490199</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>459825210.68903798</real>
+				<real>483891129.26731199</real>
 				<key>Name</key>
-				<string>Default Animation</string>
+				<string>Loop Delta</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -3903,11 +4549,219 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>C2BCF954-755B-450B-80BA-D19330BA5B65</string>
+				<string>F8D4741E-4D7C-4BF9-A41B-F5CA692B3151</string>
 			</dict>
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
+		<key>UID</key>
+		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Paste</key>
+						<true/>
+						<key>Text</key>
+						<string>navBar = new Layer
+	width: Screen.width
+	height: 128
+	backgroundColor: "hsla(212, 12%, 10%, 1.0)"
+	html: "Label"
+	style:
+		"font-family": "-apple-system"
+		"font-size": "34px"
+		"font-weight": "500"
+		"color": "#ffffff"
+		"line-height": "148px"
+		"text-align": "center"</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>482686839.06116003</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>483890795.15437901</real>
+				<key>Name</key>
+				<string>NavBar</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Exact</string>
+						<key>DiacriticalsMatter</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<false/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>f  </string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>02D035FE-E8BB-4103-977A-22EA7E1AF3E9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
+		<key>UID</key>
+		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Paste</key>
+						<true/>
+						<key>Text</key>
+						<string>%|%= new Animation
+	layer: layerA
+	properties: x:100
+	curve: "spring(400, 40, 0)</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>459558639.03058499</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>483890964.26582801</real>
+				<key>Name</key>
+				<string>new Animation</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Exact</string>
+						<key>DiacriticalsMatter</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<false/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>f  </string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>828A27DD-D945-4E8C-85AF-6914959E2138</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -3988,6 +4842,117 @@ pager.snapToPage layerA, false</string>
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
+		<key>UID</key>
+		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Paste</key>
+						<true/>
+						<key>Text</key>
+						<string>scroller = new ScrollComponent
+	width: Screen.width, height: Screen.height
+scroller.scrollHorizontal = false
+
+scrollerContent = new Layer
+	width: Screen.width, height: Screen.height * 3
+	superLayer: scroller.content</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>483891041.43739802</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>483891075.68225503</real>
+				<key>Name</key>
+				<string>new Scroll Component</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Exact</string>
+						<key>DiacriticalsMatter</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<false/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>f  </string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>BB9E1131-BCAF-475B-9B80-C74A2986BA6E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -4064,6 +5029,22 @@ shadowSpread: - 28</string>
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -4093,94 +5074,14 @@ shadowSpread: - 28</string>
 						<key>Paste</key>
 						<true/>
 						<key>Text</key>
-						<string>%|%.states.add({
-	stateA: { x: 0 },
-	stateB: { x: 320 },
-})</string>
-					</dict>
-					<dict>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>DeletePastClipboard</string>
-						<key>PastExpression</key>
-						<string>0</string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>459805980.87509799</real>
-				<key>IsActive</key>
-				<true/>
-				<key>ModificationDate</key>
-				<real>459824193.66538101</real>
-				<key>Name</key>
-				<string>States</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>Case</key>
-						<string>Exact</string>
-						<key>DiacriticalsMatter</key>
-						<true/>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>OnlyAfterWordBreak</key>
-						<false/>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>f  </string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>6CCB1B89-84BB-4B1C-A31A-5A48F25B20FD</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Framer</string>
-		<key>ToggleMacroUID</key>
-		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
-		<key>UID</key>
-		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>459558639.03058499</real>
-		<key>IsActive</key>
-		<true/>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByPasting</string>
-						<key>IsActive</key>
-						<true/>
-						<key>IsDisclosed</key>
-						<true/>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>Paste</key>
-						<true/>
-						<key>Text</key>
-						<string>myLabel = new Layer
-	width: 750, height: 88
-	backgroundColor: "transparent"
-myLabel.html = "My Label"
-myLabel.style =
-	"font-family": "SF UI Text" 
-	"font-size": "36px"
-	"color": "#000000"
-	"font-weight": "600"
-	"text-align": "center"
-	"padding-top": "32px"
-</string>
+						<string>html: "Label"
+style:
+	"font-family": "-apple-system"
+	"font-size": "34px"
+	"font-weight": "500"
+	"color": "#ffffff"
+	"line-height": "148px"
+	"text-align": "center"</string>
 					</dict>
 					<dict>
 						<key>IsActive</key>
@@ -4198,7 +5099,7 @@ myLabel.style =
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>460013010.31699997</real>
+				<real>483890827.73122501</real>
 				<key>Name</key>
 				<string>Text Layer</string>
 				<key>Triggers</key>
@@ -4224,6 +5125,22 @@ myLabel.style =
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -4254,7 +5171,7 @@ myLabel.style =
 						<true/>
 						<key>Text</key>
 						<string>Utils.delay 0.5, -&gt;
-    %|%</string>
+	%|%</string>
 					</dict>
 					<dict>
 						<key>IsActive</key>
@@ -4272,7 +5189,7 @@ myLabel.style =
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>459825218.08895999</real>
+				<real>483890657.36069602</real>
 				<key>Name</key>
 				<string>Utils Delay</string>
 				<key>Triggers</key>
@@ -4298,6 +5215,22 @@ myLabel.style =
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
@@ -4327,12 +5260,8 @@ myLabel.style =
 						<key>Paste</key>
 						<true/>
 						<key>Text</key>
-						<string>newLayer = new Layer
-	x: 0
-	y: 0
-	width: Screen.width
-	height: 128
-	backgroundColor: "hsla(219,3%,48%,1.0)"</string>
+						<string>Utils.labelLayer layer, "Guinness 97%"
+layer.style.fontSize = "36px"</string>
 					</dict>
 					<dict>
 						<key>IsActive</key>
@@ -4346,13 +5275,13 @@ myLabel.style =
 					</dict>
 				</array>
 				<key>CreationDate</key>
-				<real>459558639.03058499</real>
+				<real>467613460.97084999</real>
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>459825215.60078102</real>
+				<real>467613475.304636</real>
 				<key>Name</key>
-				<string>Framer New Layer</string>
+				<string>Utils Label</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -4367,15 +5296,121 @@ myLabel.style =
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>fnl</string>
+						<string>f  </string>
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>6CB0EDCF-C12C-4047-8BD3-F5F2C7E1678D</string>
+				<string>96B502B7-3E64-4958-9547-A5B55DC5679F</string>
 			</dict>
 		</array>
 		<key>Name</key>
 		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
+		<key>UID</key>
+		<string>F0265BBB-D269-40C7-BE49-EDB0166BD3D4</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459558639.03058499</real>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Paste</key>
+						<true/>
+						<key>Text</key>
+						<string># input value, input range, output range, true (limits output to values set in output)
+layerA.y = Utils.modulate this.y, [0, 1], [0, 2]</string>
+					</dict>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>483891151.991512</real>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>483891170.58899301</real>
+				<key>Name</key>
+				<string>Utils Modulate</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Exact</string>
+						<key>DiacriticalsMatter</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<false/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>f  </string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0E2A5283-0653-4C37-A7BC-1EFECA6AA315</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Framer</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.motif.framer</string>
+					<key>Name</key>
+					<string>Framer</string>
+					<key>NewFile</key>
+					<string>/Applications/Framer.app</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ToggleMacroUID</key>
 		<string>5471799D-E55A-432A-B80C-A78EF465B61F</string>
 		<key>UID</key>
