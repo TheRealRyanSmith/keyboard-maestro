@@ -15,3 +15,7 @@ Here, all my Framer snippets are mapped to 'f-space-space'.
 In Framer, when I type 'f-space-space' I get this command palette. You can select a snippet with the keyboard by choosing a unique letter (the not very contrasty gray letters).
 
 ![My Macros](command-palette.png)
+
+We can also do a similar thing with apps and folders. I have a launcher group with folders and apps mapped to two different hot keys (CMD + Shift + J & CMD + Shift + K). My most used apps and folders can be activated and opened with a few keystrokes.
+
+![My Macros](launcher-group.png)
